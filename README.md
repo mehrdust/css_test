@@ -14,6 +14,8 @@ To resolve this test you should complete the following tasks:
  - **F** - Display the texts in one line if the browser is smaller than 600px. If text is bigger than the .container display ellipsis
  - **G** - Make a copy of the project and implement the same design without using float: [left | right]
 
+> this task uses `display: inline-block;` instead of `float: left;` to pull divs side by side. The layout looks the same as what was achieved throughout tasks A-F
+
 
 At the end of you test you should submit 2 zip files
  - 1 containing the implementation of tasks A to F

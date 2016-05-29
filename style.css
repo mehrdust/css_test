@@ -1,6 +1,8 @@
 .container {
   padding: 5px;
   border: 1px solid red;
+  display: inline-block;
+  position: relative;
 }
 
 .bubble {
@@ -8,5 +10,43 @@
   width: 60px;
   border: 1px solid yellow;
   text-align: center;
-  float: left;
+}
+
+.container p {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 95px;
+	height: 25%;
+	margin: auto;
+}
+
+@media screen and (max-width: 599px) {
+	.container {
+		width: 98%;
+	}
+
+	.bubble {
+		width: 90px;
+	}
+
+	.container p {
+		left: 125px;
+		white-space: nowrap;
+		overflow: hidden;
+		width: calc(100% - 124px);
+		text-overflow: ellipsis;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+	.container {
+		width: 47%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.container {
+		width: 30%;
+	}
 }
