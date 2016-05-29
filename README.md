@@ -28,8 +28,11 @@ To resolve this test you should complete the following tasks:
 
 > 3. screen wider than 960px: 3 columns and 2 rows
 
-##TODO
  - **E** - Change the width of .bubble elements to 90px if the browser is smaller than 600px
+
+> this task will maitain the same layout as previous ones. The increase of bubble width by 30 pixels would require to add up 30px to paragraph left: `left: 125px;`
+
+##TODO
  - **F** - Display the texts in one line if the browser is smaller than 600px. If text is bigger than the .container display ellipsis
  - **G** - Make a copy of the project and implement the same design without using float: [left | right]
 

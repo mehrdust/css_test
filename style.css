@@ -35,3 +35,17 @@
 		float: left;
 	}
 }
+
+@media screen and (max-width: 599px) {
+	.container {
+		width: 98%;
+	}
+
+	.bubble {
+		width: 90px;
+	}
+
+	.container p {
+		left: 125px;
+	}
+}
