@@ -21,8 +21,11 @@ To resolve this test you should complete the following tasks:
  - **D** - Show the .containers in 2 columns if the browser is bigger then 600px
 
 > with this task we will have 3 different layouts:
+
 > 1. screen width less than 600px: 1 column and 4 rows
+
 > 2. screen width more than 600px and less than 959px: 2 columns and 2 rows
+
 > 3. screen wider than 960px: 3 columns and 2 rows
 
 ##TODO
