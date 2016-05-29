@@ -18,8 +18,14 @@ To resolve this test you should complete the following tasks:
 
 > currently each container div (red border) will fill the row, therefore, we would have 4 rows and 1 column only. For this task we want to maintain the same layout with screen width less than 960px. wider than 960px we will have 3 columns and 2 rows.
 
-##TODO
  - **D** - Show the .containers in 2 columns if the browser is bigger then 600px
+
+> with this task we will have 3 different layouts:
+> 1. screen width less than 600px: 1 column and 4 rows
+> 2. screen width more than 600px and less than 959px: 2 columns and 2 rows
+> 3. screen wider than 960px: 3 columns and 2 rows
+
+##TODO
  - **E** - Change the width of .bubble elements to 90px if the browser is smaller than 600px
  - **F** - Display the texts in one line if the browser is smaller than 600px. If text is bigger than the .container display ellipsis
  - **G** - Make a copy of the project and implement the same design without using float: [left | right]

@@ -28,3 +28,10 @@
 		float: left;
 	}
 }
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+	.container {
+		width: 47%;
+		float: left;
+	}
+}
