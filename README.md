@@ -10,8 +10,11 @@ To resolve this test you should complete the following tasks:
 
 > setting overflow of container div to hidden or auto will pull the paragraph element to the right of bubble div.
 
-#TODO
  - **B** - Display all texts vertically aligned with the .bubble element;
+
+> setting `position: relative` on parent container and setting the absolute postion on the child (paragraph) would vertically align the paragraph inside its parent container. It is assumed that by virtically aligned, this task would require the text to be aligned in the middle. (`height: 25%; top: 0; bottom: 0;`) In order to align it to top we can simply remove `bottom: 0` and to align to bottom we can remove `top: 0`.
+
+##TODO
  - **C** - Show the .containers in 3 columns if the browser is bigger then 960px
  - **D** - Show the .containers in 2 columns if the browser is bigger then 600px
  - **E** - Change the width of .bubble elements to 90px if the browser is smaller than 600px
