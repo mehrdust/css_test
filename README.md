@@ -18,3 +18,28 @@ To resolve this test you should complete the following tasks:
 At the end of you test you should submit 2 zip files
  - 1 containing the implementation of tasks A to F
  - 1 containing the implementation of all tasks
+
+
+# Testing the tasks
+
+Each task is done inside a separate branch. So there are 7 branches: task_A, task_B, task_C, ..., task_G
+
+## Test each task individually
+checkout to a given branch to see the changes under that particular task, for example:
+
+`git checkout task_B`
+
+## Check tasks A-F
+Since branches task_A to task_F are created sequentially, to see the outcome of tasks A-F simply checkout to task_F:
+
+`git checkout task_F`
+
+## Check task G
+
+`git checkout task_G`
+
+## test the web page using python's SimpleHTTPServer
+
+run the following command and point to <ip_address>:8000 on your browser:
+
+`python -m SimpleHTTPServer 8000`
