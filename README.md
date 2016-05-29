@@ -38,9 +38,7 @@ To resolve this test you should complete the following tasks:
 
 > 1. show paragraph in one line (no wrapping): `white-space: nowrap;`
 
-> 2. with text overflowing the container, don't show the overflowing portion and show ... instead (ellipsis):
-
-> `overflow: hidden; text-overflow: ellipsis;`
+> 2. with text overflowing the container, don't show the overflowing portion and show ... instead (ellipsis): `overflow: hidden; text-overflow: ellipsis;`
 
 > 3. calculate the dynamic width of .container:
 
