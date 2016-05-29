@@ -47,5 +47,9 @@
 
 	.container p {
 		left: 125px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: calc(100% - 124px);
 	}
 }

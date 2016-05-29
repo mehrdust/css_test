@@ -32,8 +32,21 @@ To resolve this test you should complete the following tasks:
 
 > this task will maitain the same layout as previous ones. The increase of bubble width by 30 pixels would require to add up 30px to paragraph left: `left: 125px;`
 
-##TODO
  - **F** - Display the texts in one line if the browser is smaller than 600px. If text is bigger than the .container display ellipsis
+
+> this task will cover the following changes only for screen smaller than 600px:
+
+> 1. show paragraph in one line (no wrapping): `white-space: nowrap;`
+
+> 2. with text overflowing the container, don't show the overflowing portion and show ... instead (ellipsis):
+
+> `overflow: hidden; text-overflow: ellipsis;`
+
+> 3. calculate the dynamic width of .container:
+
+> `width: calc(100% - 124px);` where 124px = .bubble width (90px) + .bubble left&right padding (20px) + .bubble left & right border (2px) + .cotainer left & right padding (10px) + .container left & right border (2px)
+
+##TODO
  - **G** - Make a copy of the project and implement the same design without using float: [left | right]
 
 
