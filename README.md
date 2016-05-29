@@ -14,8 +14,10 @@ To resolve this test you should complete the following tasks:
 
 > setting `position: relative` on parent container and setting the absolute postion on the child (paragraph) would vertically align the paragraph inside its parent container. It is assumed that by virtically aligned, this task would require the text to be aligned in the middle. (`height: 25%; top: 0; bottom: 0;`) In order to align it to top we can simply remove `bottom: 0` and to align to bottom we can remove `top: 0`.
 
-##TODO
  - **C** - Show the .containers in 3 columns if the browser is bigger then 960px
+> currently each container div (red border) will fill the row, therefore, we would have 4 rows and 1 column only. For this task we want to maintain the same layout with screen width less than 960px. wider than 960px we will have 3 columns and 2 rows.
+
+##TODO
  - **D** - Show the .containers in 2 columns if the browser is bigger then 600px
  - **E** - Change the width of .bubble elements to 90px if the browser is smaller than 600px
  - **F** - Display the texts in one line if the browser is smaller than 600px. If text is bigger than the .container display ellipsis

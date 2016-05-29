@@ -21,3 +21,10 @@
 	height: 25%;
 	margin: auto;
 }
+
+@media screen and (min-width: 960px) {
+	.container {
+		width: 32%;
+		float: left;
+	}
+}
