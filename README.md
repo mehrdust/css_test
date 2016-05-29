@@ -7,6 +7,10 @@ The .bubble (yellow box) elements are overflowing the .container (red box) eleme
 To resolve this test you should complete the following tasks:
 
  - **A** - Fix the issue of the .bubble element overflowing the .container. The .bubble element needs to be inside the .container element
+
+> setting overflow of container div to hidden or auto will pull the paragraph element to the right of bubble div.
+
+#TODO
  - **B** - Display all texts vertically aligned with the .bubble element;
  - **C** - Show the .containers in 3 columns if the browser is bigger then 960px
  - **D** - Show the .containers in 2 columns if the browser is bigger then 600px

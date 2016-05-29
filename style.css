@@ -1,6 +1,7 @@
 .container {
   padding: 5px;
   border: 1px solid red;
+  overflow: hidden;
 }
 
 .bubble {
