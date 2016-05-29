@@ -24,21 +24,46 @@ At the end of you test you should submit 2 zip files
 
 Each task is done inside a separate branch. So there are 7 branches: task_A, task_B, task_C, ..., task_G
 
-## Test each task individually
-checkout to a given branch to see the changes under that particular task, for example:
+### Create folder
 
-`git checkout task_B`
+`mkdir css_challenge`
 
-## Check tasks A-F
+`cd css_challenge`
+
+### Test each task individually
+checkout to a given branch to see the changes under that particular task, for example for task B:
+
+`cd css_challenge`
+
+`rm -rf css_test`
+
+`git clone -b task_B https://github.com/mehrdust/css_test`
+
+`cd css_test`
+
+### Check tasks A-F
 Since branches task_A to task_F are created sequentially, to see the outcome of tasks A-F simply checkout to task_F:
 
-`git checkout task_F`
+`cd css_challenge`
 
-## Check task G
+`rm -rf css_test`
 
-`git checkout task_G`
+`git clone -b task_F https://github.com/mehrdust/css_test`
 
-## test the web page using python's SimpleHTTPServer
+`cd css_test`
+
+### Check task G
+
+
+`cd css_challenge`
+
+`rm -rf css_test`
+
+`git clone -b task_G https://github.com/mehrdust/css_test`
+
+`cd css_test`
+
+### test the web page using python's SimpleHTTPServer
 
 run the following command and point to <ip_address>:8000 on your browser:
 
